@@ -1,0 +1,23 @@
+{
+  "name": "instagram-external-adapter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --timeout 10000",
+    "dev": "node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@chainlink/external-adapter": "^0.2.6",
+    "chai": "^4.3.4",
+    "cheerio": "*",
+    "express": "^4.17.1",
+    "ipfs-http-client": "^50.1.1",
+    "lodash": "^4.17.21",
+    "mocha": "^8.4.0",
+    "request-promise": "^4.2.6"
+  }
+}
