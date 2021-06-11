@@ -1,0 +1,30 @@
+{
+  "name": "IG-IPFS-EA",
+  "initiators": [
+    {
+      "id": 10,
+      "jobSpecId": JOB_SPEC_ID,
+      "type": "runlog",
+      "params": {
+        "address": ORACLE_CONTRACT_ADDRESS
+      }
+    }
+  ],
+  "tasks": [
+    {
+      "jobSpecId": JOB_SPEC_ID,
+      "type": "ig-ipfs-ea"
+    },
+    {
+      "jobSpecId": JOB_SPEC_ID,
+      "type": "copy",
+      "params": {
+        "copyPath": "result"
+      }
+    },
+    {
+      "jobSpecId": JOB_SPEC_ID,
+      "type": "ethtx"
+    }
+  ]
+}
